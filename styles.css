@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=Chango&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Display:ital@0;1&family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Kumbh+Sans:wght,YOPQ@100..900,300&family=League+Spartan:wght@100..900&family=Outfit:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&family=Young+Serif&display=swap");
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	min-height: 100vh;
+	background-color: #1a2a33;
+	font-family: "Outfit";
+}
+
+main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color: #1f3641;
+	color: #a8bfc9;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 15px;
+	border-bottom: solid 8px;
+	border-color: #10212a;
+}
+
+.icon-top {
+	padding-bottom: 20px;
+}
+
+.pick-player {
+	font-weight: 700;
+}
+
+.choose-icons {
+	display: flex;
+	background-color: #1a2a33;
+	background-size: 50%;
+	height: 56px;
+	width: 100%;
+	justify-self: center;
+	align-items: center;
+	justify-content: space-evenly;
+    border-radius: 15px;
+}
+.click-icons {
+	background-color: transparent;
+	border: transparent;
+	width: 50%;
+	background-size: 50px;
+	color: #a8bfc9;
+}
+
+.buttons-choose {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding-top: 30px;
+	gap: 20px;
+}
+
+.cpu {
+	padding-left: 70px;
+	padding-right: 70px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: #f2b137;
+	border: none;
+	border-bottom: solid 8px;
+	border-color: #cc8b13;
+	border-radius: 15px;
+	font-size: 16px;
+	font-weight: 700;
+	color: #1a2a33;
+}
+
+.player {
+	padding-left: 58px;
+	padding-right: 58px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: #31c3bd;
+	border: none;
+	border-bottom: solid 8px;
+	border-color: #118c87;
+	border-radius: 15px;
+	font-size: 16px;
+	font-weight: 700;
+	color: #1a2a33;
+}
+
+.color-logo {
+	color: #1a2a33;
+}
+
+.background-logo {
+	background-color: #a8bfc9;
+	border-radius: 15px;
+	padding: 5px;
+    color: #1A2A33;
+}
